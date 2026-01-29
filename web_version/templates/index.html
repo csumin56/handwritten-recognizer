@@ -1,0 +1,29 @@
+<!-- Created: 2026-01-29 18:30 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwritten Digit Recognizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Handwritten Digit Recognizer</h1>
+        <p class="subtitle">Draw a number from 0-9</p>
+
+        <div class="canvas-container">
+            <canvas id="canvas" width="392" height="392"></canvas>
+        </div>
+
+        <div id="result" class="result">Draw a digit and press Predict</div>
+
+        <div class="button-container">
+            <button id="predictBtn" class="btn">Predict</button>
+            <button id="clearBtn" class="btn">Clear</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

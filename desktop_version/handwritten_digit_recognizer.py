@@ -13,7 +13,7 @@ class ModelBundle:
     model: keras.Model
 
 
-MODEL_PATH = Path("mnist_model.h5")
+MODEL_PATH = Path(__file__).parent / "mnist_model.h5"
 
 
 def build_model() -> keras.Model:
